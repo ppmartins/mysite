@@ -74,7 +74,6 @@
   line-height: 130%;
   color: white;
   font-weight: lighter;
-
 }
 
 .hero .stat .quote .inside strong {
@@ -90,7 +89,115 @@
   font-family: 'Source Sans Pro', sans-serif;
   padding-top: 30px;
   font-size: 1.6rem;
+  text-align: center;
+  letter-spacing: 0.05rem;
 }
 
 
 /* Important */
+
+.important .headline h2 {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 3.6rem;
+  font-weight: 900;
+  letter-spacing: 0.05rem;
+}
+
+.important .headline h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-bottom: 20px;
+  color: #D57B60;
+  font-size: 3.2rem;
+  text-align: center;
+  font-weight: 800;
+}
+
+.important .headline .bullet1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.0rem;
+  text-align: center;
+  padding-top: 15px;
+  font-style: italic;
+}
+
+.important .headline .bullet2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.0rem;
+  text-align: center;
+  padding-top: 15px;
+  font-style: italic;
+}
+
+.important .headline .bullet3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.0rem;
+  text-align: center;
+  padding-top: 15px;
+  font-style: italic;
+}
+
+.important .headline .bullet4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.0rem;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.important .headline h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 20px;
+  font-size: 3.2rem;
+  text-align: center;
+  font-weight: 800;
+}
+
+.important .headline .bullet5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.0rem;
+  text-align: center;
+  padding-top: 15px;
+  font-style: italic;
+}
+
+.important .headline .bullet6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.0rem;
+  text-align: center;
+  padding-top: 15px;
+  font-style: italic;
+}
+
+.important .headline .bullet7 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.6rem;
+  text-align: center;
+  padding-top: 15px;
+  font-style: italic;
+  color: #D57B60;
+  letter-spacing: 0.05rem;
+  font-weight: 600;
+}
+
+.important .headline .button .row {
+  line-height: 30px;
+  padding-left: 60px;
+  padding-top: 30px;
+}
+
+.important .headline .btn {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.2rem;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 0.05rem;
+  font-weight: 400;
+  vertical-align: middle;
+  background-color: #B57170;
+  width: 140%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
