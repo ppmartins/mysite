@@ -3,6 +3,11 @@
 .navbar {
   line-height: 20px;
   padding-top: 10px;
+/*  background-color: rgba(53,57,60,0.9); */
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: transparent;
 }
 
 .navbar .brand {
@@ -11,7 +16,7 @@
   font-weight: 400;
   vertical-align: baseline;
   letter-spacing: 0.05rem;
-  color: black;
+  color: white;
 }
 
 .navbar .about {
@@ -34,8 +39,18 @@
   color: black;
 }
 
+/* It's not working */
+.nav li .talk a:hover {
+    background-color: #63ccca;
+    color: white;
+}
+
 
 /* Hero */
+
+.hero {
+  background-color: rgba(53,57,60,0.9);
+}
 
 .hero .headline h1 {
   font-family: 'Open Sans', sans-serif;
@@ -45,7 +60,32 @@
   margin: 0px 0px -10px 0px;
   padding-top: 70px;
   letter-spacing: 0.05rem;
-  color: #35393C;
+  color: white;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  body .hero .headline h1 {
+    margin-top: -20px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  body .hero .headline h1 {
+    margin-top: -60px;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  body .hero .headline h1 {
+    margin-top: -60px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  body .hero .headline h1 {
+    margin-top: -60px;
+    font-size: 4.8rem;
+  }
 }
 
 .hero .subheadline h2 {
@@ -56,6 +96,7 @@
   margin-bottom: 110px;
   padding-top: 20px;
   letter-spacing: 0.05rem;
+  color: white;
 }
 
 .hero .stat {
@@ -95,6 +136,8 @@
   font-size: 1.6rem;
   text-align: center;
   letter-spacing: 0.05rem;
+  color: white;
+  padding-bottom: 40px;
 }
 
 
@@ -336,6 +379,180 @@
   background-color: #42858C;
   color: white;
   padding-bottom: 10px;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  body .bullet .first-row h1 {
+    font-weight: 500;
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  body .bullet .first-row h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  body .bullet .first-row h1 {
+    font-weight: 500;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  body .bullet .first-row h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
+
+@media all and (max-width: 480px) {
+  body .bullet .first-row h1 {
+    font-weight: 500;
+  }
+}
+
+@media all and (max-width: 480px) {
+  body .bullet .first-row h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  body .bullet .second-row h1 {
+    font-weight: 500;
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  body .bullet .second-row h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  body .bullet .second-row h1 {
+    font-weight: 500;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  body .bullet .second-row h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
+
+@media all and (max-width: 480px) {
+  body .bullet .second-row h1 {
+    font-weight: 500;
+  }
+}
+
+@media all and (max-width: 480px) {
+  body .bullet .second-row h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  body .bullet .third-row h1 {
+    font-weight: 500;
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  body .bullet .third-row h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  body .bullet .third-row h1 {
+    font-weight: 500;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  body .bullet .third-row h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
+
+@media all and (max-width: 480px) {
+  body .bullet .third-row h1 {
+    font-weight: 500;
+  }
+}
+
+@media all and (max-width: 480px) {
+  body .bullet .third-row h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  body .bullet .fourth-row h1 {
+    font-weight: 500;
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  body .bullet .fourth-row h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  body .bullet .fourth-row h1 {
+    font-weight: 500;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  body .bullet .fourth-row h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
+
+@media all and (max-width: 480px) {
+  body .bullet .fourth-row h1 {
+    font-weight: 500;
+  }
+}
+
+@media all and (max-width: 480px) {
+  body .bullet .fourth-row h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+  }
 }
 
 /* P.S. */
