@@ -340,7 +340,13 @@ ul.nav li.talk a:hover {
   padding-bottom: 25px;
 }
 
-.bullet .col-md-4 h1 {
+/* Services Table */
+
+.bullet-one {
+  background-color: #35393C;
+}
+
+.bullet-one .bullet1 .col-md-4 h1 {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: left;
   margin-left: 100px;
@@ -350,7 +356,7 @@ ul.nav li.talk a:hover {
   padding-bottom: 20px;
 }
 
-.bullet .col-md-6 h2 {
+.bullet-one .bullet1 .col-md-6 h2 {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: left;
   font-weight: 400;
@@ -359,154 +365,182 @@ ul.nav li.talk a:hover {
   padding-bottom: 20px;
 }
 
-.bullet .first-row {
-  background-color: #35393C;
+.bullet-one .bullet1 {
   color: white;
-  padding-bottom: 10px;
+  padding-top: 20px;
 }
 
-.bullet .second-row {
+
+.bullet-two {
   background-color: #42858C;
-  color: white;
-  padding-bottom: 10px;
 }
 
-.bullet .third-row {
+.bullet-two .bullet2 .col-md-4 h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 2.8rem;
+  padding-bottom: 20px;
+}
+
+.bullet-two .bullet2 .col-md-6 h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  font-weight: 400;
+  font-size: 2.2rem;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bullet-two .bullet2 {
+  color: white;
+  padding-top: 20px;
+}
+
+
+.bullet-three {
   background-color: #35393C;
-  color: white;
-  padding-bottom: 10px;
 }
 
-.bullet .fourth-row {
+.bullet-three .bullet3 .col-md-4 h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 2.8rem;
+  padding-bottom: 20px;
+}
+
+.bullet-three .bullet3 .col-md-6 h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  font-weight: 400;
+  font-size: 2.2rem;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bullet-three .bullet3 {
+  color: white;
+  padding-top: 20px;
+}
+
+
+.bullet-four {
   background-color: #42858C;
+}
+
+.bullet-four .bullet4 .col-md-4 h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 2.8rem;
+  padding-bottom: 20px;
+}
+
+.bullet-four .bullet4 .col-md-6 h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  font-weight: 400;
+  font-size: 2.2rem;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bullet-four .bullet4 {
   color: white;
-  padding-bottom: 10px;
+  padding-top: 20px;
 }
+
+
+
+
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  body .bullet .first-row h1 {
-    font-weight: 500;
-    text-align: center;
-  }
-}
-
-@media all and (min-width: 768px) and (max-width: 1024px) {
-  body .bullet .first-row h2 {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 300;
-  }
-}
-
-@media all and (min-width: 480px) and (max-width: 768px) {
-  body .bullet .first-row h1 {
-    font-weight: 500;
-  }
-}
-
-@media all and (min-width: 480px) and (max-width: 768px) {
-  body .bullet .first-row h2 {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 300;
-  }
-}
-
-@media all and (max-width: 480px) {
-  body .bullet .first-row h1 {
-    font-weight: 500;
-  }
-}
-
-@media all and (max-width: 480px) {
-  body .bullet .first-row h2 {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 300;
-  }
-}
-
-@media all and (min-width: 768px) and (max-width: 1024px) {
-  body .bullet .second-row h1 {
+  .bullet-one .bullet1 h1 {
     font-weight: 500;
     text-align: center;
   }
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  body .bullet .second-row h2 {
-    text-align: center;
+  .bullet-one .bullet1 h2 {
+    text-align: left;
     font-size: 2rem;
     font-weight: 300;
   }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
-  body .bullet .second-row h1 {
+  .bullet-one .bullet1 h1 {
     font-weight: 500;
   }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
-  body .bullet .second-row h2 {
-    text-align: center;
+  .bullet-one .bullet1 h2 {
+    text-align: left;
     font-size: 2rem;
     font-weight: 300;
   }
 }
 
 @media all and (max-width: 480px) {
-  body .bullet .second-row h1 {
+  .bullet-one .bullet1 h1 {
     font-weight: 500;
   }
 }
 
 @media all and (max-width: 480px) {
-  body .bullet .second-row h2 {
+  .bullet-one .bullet1 h2 {
     text-align: center;
     font-size: 2rem;
     font-weight: 300;
-  }
-}
-
-
-@media all and (min-width: 768px) and (max-width: 1024px) {
-  body .bullet .third-row h1 {
-    font-weight: 500;
-    text-align: center;
   }
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  body .bullet .third-row h2 {
+  .bullet-two .bullet2 h1 {
+    font-weight: 500;
     text-align: center;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .bullet-two .bullet2 h2 {
+    text-align: left;
     font-size: 2rem;
     font-weight: 300;
   }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
-  body .bullet .third-row h1 {
+  .bullet-two .bullet2 h1 {
     font-weight: 500;
   }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
-  body .bullet .third-row h2 {
-    text-align: center;
+  .bullet-two .bullet2 h2 {
+    text-align: left;
     font-size: 2rem;
     font-weight: 300;
   }
 }
 
 @media all and (max-width: 480px) {
-  body .bullet .third-row h1 {
+  .bullet-two .bullet2 h1 {
     font-weight: 500;
   }
 }
 
 @media all and (max-width: 480px) {
-  body .bullet .third-row h2 {
+  .bullet-two .bullet2 h2 {
     text-align: center;
     font-size: 2rem;
     font-weight: 300;
@@ -515,42 +549,86 @@ ul.nav li.talk a:hover {
 
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  body .bullet .fourth-row h1 {
+  .bullet-three .bullet3 h1 {
     font-weight: 500;
     text-align: center;
   }
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  body .bullet .fourth-row h2 {
-    text-align: center;
+  .bullet-three .bullet3 h2 {
+    text-align: left;
     font-size: 2rem;
     font-weight: 300;
   }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
-  body .bullet .fourth-row h1 {
+  .bullet-three .bullet3 h1 {
     font-weight: 500;
   }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
-  body .bullet .fourth-row h2 {
-    text-align: center;
+  .bullet-three .bullet3 h2{
+    text-align: left;
     font-size: 2rem;
     font-weight: 300;
   }
 }
 
 @media all and (max-width: 480px) {
-  body .bullet .fourth-row h1 {
+  .bullet-three .bullet3 h1 {
     font-weight: 500;
   }
 }
 
 @media all and (max-width: 480px) {
-  body .bullet .fourth-row h2 {
+  .bullet-three .bullet3 h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .bullet-four .bullet4 h1 {
+    font-weight: 500;
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .bullet-four .bullet4 h2 {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .bullet-four .bullet4 h1 {
+    font-weight: 500;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .bullet-four .bullet4 h2 {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .bullet-four .bullet4 h1 {
+    font-weight: 500;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .bullet-four .bullet4 h1 {
     text-align: center;
     font-size: 2rem;
     font-weight: 300;
