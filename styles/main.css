@@ -103,7 +103,7 @@ ul.nav li.talk a:hover {
   font-size: 2.34rem;
   font-weight: 300;
   text-align: center;
-  margin-bottom: 110px;
+  margin-bottom: 50px;
   padding-top: 20px;
   letter-spacing: 0.05rem;
   color: white;
@@ -113,24 +113,24 @@ ul.nav li.talk a:hover {
   background-color: rgb(93,163,153);
 }
 
-.hero .stat .quote1 .inside h3 {
+.stat .quote1 .inside h3 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 2rem;
   font-weight: 300;
   text-align: center;
   font-style: italic;
-  line-height: 130%;
+  line-height: 140%;
   color: #35393C;
   font-weight: lighter;
   padding-top: 20px;
   padding-bottom: 10px;
 }
 
-.hero .stat .quote1 .inside strong {
+.stat .quote1 .inside strong {
   font-size: 2.1rem;
 }
 
-.hero .stat .quote1 h3 p {
+.stat .quote1 h3 p {
   font-size: 1.6rem;
   font-style: normal;
   padding-top: 10px;
@@ -138,12 +138,12 @@ ul.nav li.talk a:hover {
 
 .hero .link h5 {
   font-family: 'Source Sans Pro', sans-serif;
-  padding-top: 30px;
+  padding-top: 20px;
   font-size: 1.6rem;
   text-align: center;
   letter-spacing: 0.05rem;
   color: white;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 
@@ -258,36 +258,32 @@ ul.nav li.talk a:hover {
 
 /* middle quote */
 
-.quote .row {
+.sherman {
   margin-top: 110px;
 }
 
-.quote .col-md-12 {
+.sherman .col-md-12 {
   background-color: #5DA399;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 0px;
-  padding-right: 0px;
 }
 
-.quote .inside h3 {
+.quote2 h3 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 2rem;
   font-weight: 300;
   text-align: center;
   font-style: italic;
-  line-height: 130%;
+  line-height: 140%;
   color: #35393C;
   font-weight: lighter;
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 20px;
 }
 
-.quote .inside strong {
+.quote2 strong {
   font-size: 2.1rem;
 }
 
-.quote .inside h3 p {
+.quote2 h3 p {
   font-size: 1.6rem;
   font-style: normal;
   padding-top: 10px;
