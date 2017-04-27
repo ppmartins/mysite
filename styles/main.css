@@ -3,11 +3,21 @@
 .navbar {
   line-height: 20px;
   padding-top: 10px;
-/*  background-color: rgba(53,57,60,0.9); */
+  background-color: rgba(53,57,60,0.9);
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
     background-color: transparent;
+}
+
+ul.nav li a, ul.nav li a:focus {
+    color: white !important;
+}
+
+/* It's not working */
+ul.nav li.talk a:hover {
+    background-color: #63ccca;
+    color: white;
 }
 
 .navbar .brand {
@@ -34,7 +44,7 @@
   font-weight: 200;
   vertical-align: baseline;
   letter-spacing: 0.05rem;
-  border-radius: 15px;
+  border-radius: 10px;
   border: 0.23rem solid #63CCCA;
   color: black;
 }
@@ -48,7 +58,7 @@
 
 /* Hero */
 
-.hero {
+.hero .col-md-12 {
   background-color: rgba(53,57,60,0.9);
 }
 
@@ -99,15 +109,11 @@
   color: white;
 }
 
-.hero .stat {
-  position: relative; /* with absolute the color works but not the responsiveness */
-  right: 0;
-  left: 0;
-  background-color: #5DA399;
-  z-index: 99;
+.stat .col-md-12 {
+  background-color: rgb(93,163,153);
 }
 
-.hero .stat .quote .inside h3 {
+.hero .stat .quote1 .inside h3 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 2rem;
   font-weight: 300;
@@ -117,14 +123,14 @@
   color: #35393C;
   font-weight: lighter;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
-.hero .stat .quote .inside strong {
+.hero .stat .quote1 .inside strong {
   font-size: 2.1rem;
 }
 
-.hero .stat .quote h3 p {
+.hero .stat .quote1 h3 p {
   font-size: 1.6rem;
   font-style: normal;
   padding-top: 10px;
@@ -256,7 +262,7 @@
   margin-top: 110px;
 }
 
-.col-md-12 {
+.quote .col-md-12 {
   background-color: #5DA399;
   margin-right: auto;
   margin-left: auto;
@@ -589,4 +595,50 @@
   letter-spacing: 0.05rem;
   font-weight: 400;
   background-color: #63CCCA;
+}
+
+
+/* Footer */
+
+.bottom {
+  margin-top: 60px;
+  min-height: 100%;
+  background-color: rgba(53,57,60,0.9);
+}
+
+#main {
+  overflow:auto;
+  padding-bottom: 60px; /* this needs to be bigger than footer height*/
+}
+
+.bottom .brand {
+  color: white;
+  padding-top: 20px;
+}
+
+.bottom .about {
+  color: white;
+  padding-top: 3px;
+}
+
+.bottom .talk {
+  color: white;
+  padding-top: 3px;
+}
+
+.footer {
+  position: relative;
+  margin-top: -50px; /* negative value of footer height */
+  height: 50px;
+  clear:both;
+  padding-top:20px;
+  background-color: rgba(53,57,60,0.9);
+}
+
+.bottom .brand {
+    color: white !important;
+}
+
+ul.nav li a, ul.nav li a:focus {
+    color: white !important;
 }
