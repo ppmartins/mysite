@@ -1,20 +1,20 @@
-/* Tips Section */
+/* First Column */
 
-.tips .tips-headline {
-  padding-top: 50px;
-}
-
-.tips .tips-headline p {
+.col-sm-5 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 2.0rem;
   text-align: left;
 }
 
-.tips .tips-headline p.line {
+.col-sm-5 .line1 {
+  padding-top: 50px;
+}
+
+.col-sm-5 .line {
   padding-top: 20px;
 }
 
-.tips .tips-headline p.link{
+.col-sm-5 .link {
   padding-top: 20px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 2.0rem;
@@ -25,11 +25,9 @@
   color: #42858c;
   padding-right: 7px;
 }
-
-
 /* Tip #1 */
 
-.tips-headline h2 {
+.col-sm-5 h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
   padding-top: 50px;
@@ -37,14 +35,14 @@
   font-size: 2.2rem;
 }
 
-.tips-headline p {
+.col-sm-5 p {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 2rem;
   padding-top: 2px;
   letter-spacing: 0.05rem;
 }
 
-.tips-headline h4.line1 {
+.col-sm-5 h4.line1 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 2.2rem;
   padding-top: 60px;
@@ -53,7 +51,7 @@
   font-weight: 700;
 }
 
-.tips-headline h4.line2 {
+.col-sm-5 h4.line2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 2.2rem;
   padding-top: 20px;
@@ -62,7 +60,7 @@
   font-weight: 700;
 }
 
-.tips-headline p.ps1 {
+.col-sm-5 p.ps1 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.8rem;
   padding-top: 70px;
@@ -70,10 +68,32 @@
   font-weight: 400;
 }
 
-.tips-headline p.ps2 {
+.col-sm-5 p.ps2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.8rem;
   padding-top: 10px;
   letter-spacing: 0.05rem;
   font-weight: 400;
+}
+
+/* Second Column */
+
+
+
+.col-sm-5 .form-line1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.6rem;
+  text-align: left;
+  padding-top: 50px;
+  margin-left: 10px;
+  color: #42858c;
+  font-weight: 600;
+}
+
+.col-sm-5 .form-email {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.6rem;
+  text-align: left;
+  padding-top: 15px;
+  margin-left: 10px;
 }

@@ -726,6 +726,11 @@ ul.nav li.talk a:hover {
   padding-top: 2px;
 }
 
+.bottom .linkedin {
+  color: white;
+  padding-top: 10px;
+}
+
 .footer {
   position: relative;
   margin-top: -50px; /* negative value of footer height */
