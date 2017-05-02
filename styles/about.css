@@ -1,0 +1,102 @@
+/* short version */
+
+.headline1 {
+  padding-top: 50px;
+  padding-bottom: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+}
+
+.headline2 {
+  padding-top: 40px;
+  padding-bottom: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+}
+
+.about-me p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2rem;
+  padding-top: 2px;
+  letter-spacing: 0.05rem;
+}
+
+.symbol .bullet .glyphicon {
+  color: #42858c;
+  padding-right: 7px;
+}
+
+.symbol .bullet2 .glyphicon {
+  color: #42858c;
+  padding-right: 7px;
+}
+
+.about-me a {
+  color: #63ccca;
+}
+
+.about-me .head1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  color: #397367;
+}
+
+.about-me .head2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  color: #397367;
+}
+
+.about-me .space {
+  padding-bottom: 25px;
+}
+
+.about-me .enough {
+  padding-top: 45px;
+  text-align: center;
+  font-style: italic;
+}
+
+.about-me .cta {
+  font-weight: 600;
+  text-align: center;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .about-me {
+
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .about-me {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .about-me {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .about-me {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
