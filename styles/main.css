@@ -700,11 +700,12 @@ ul.nav li.talk a:hover {
   margin-top: 60px;
   min-height: 100%;
   background-color: rgba(53,57,60,0.9);
+  padding-top: 10px;
 }
 
-#main {
+.bottom #main {
   overflow:auto;
-  padding-bottom: 60px; /* this needs to be bigger than footer height*/
+  padding-bottom: 150px; /* this needs to be bigger than footer height*/
 }
 
 .bottom #main a {
@@ -718,17 +719,24 @@ ul.nav li.talk a:hover {
 
 .bottom .about {
   color: white;
-  padding-top: 2px;
+  padding-top: 4px;
 }
 
 .bottom .talk {
   color: white;
-  padding-top: 2px;
+  padding-top: 4px;
+}
+
+.bottom .blog {
+  color: white;
+  padding-top: 20px;
+  font-size: 1.6rem;
+  font-style: italic;
 }
 
 .bottom .linkedin {
   color: white;
-  padding-top: 10px;
+  padding-top: 25px;
 }
 
 .footer {

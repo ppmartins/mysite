@@ -1,0 +1,146 @@
+.title {
+  font-family: 'Open Sans', sans-serif;
+  color: #397367;
+  font-size: 3.6rem;
+  text-align: center;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  padding-top: 60px;
+}
+
+.gif {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.ps1 {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.4rem;
+  padding-top: 10px;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2rem;
+  padding-top: 2px;
+  letter-spacing: 0.05rem;
+}
+
+.line1 {
+  padding-top: 80px;
+}
+
+.article1 .subhead {
+  font-size: 2.4rem;
+  padding-top: 30px;
+  font-weight: 600;
+}
+
+.ps2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.4rem;
+  margin-top: -15px;
+}
+
+.head {
+  padding-top: 60px;
+  color: #5da399;
+  font-size: 2.6rem;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.line2 {
+  padding-top: 40px;
+}
+
+.linemark {
+  color: #63ccca;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.quote {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 2.4rem;
+}
+
+.symb .glyphicon {
+  color: #42858c;
+  padding-right: 7px;
+  padding-bottom: 30px;
+}
+
+.image1 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.image2 {
+  padding-top: 25px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.4rem;
+  padding-top: 2px;
+  letter-spacing: 0.05rem;
+}
+
+.image3 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.bye {
+  padding-top: 20px;
+}
+
+.sign {
+  margin-top: -12px;
+  padding-bottom: 30px;
+}
+
+.back {
+  padding-bottom: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+}
+
+.back a {
+  color: #63ccca;
+}
+
+
+/* Responsiveness */
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .col-sm-8 {
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  .article1 {
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .col-sm-8 {
+    margin-left: 100px;
+  }
+  
+}
+
+@media all and (max-width: 480px) {
+
+}
