@@ -71,7 +71,7 @@ ul.nav li.talk a:hover {
 
 .hero .headline h1 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 5.2rem;
+  font-size: 5.4rem;
   font-weight: 900;
   text-align: center;
   margin: 0px 0px -10px 0px;
@@ -110,10 +110,11 @@ ul.nav li.talk a:hover {
   font-size: 2.34rem;
   font-weight: 300;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 90px;
   padding-top: 20px;
   letter-spacing: 0.05rem;
   color: white;
+  line-height: 30px;
 }
 
 .stat .col-md-12 {
@@ -126,11 +127,11 @@ ul.nav li.talk a:hover {
   font-weight: 300;
   text-align: center;
   font-style: italic;
-  line-height: 140%;
+  line-height: 150%;
   color: #35393C;
   font-weight: lighter;
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .stat .quote1 .inside strong {
@@ -140,18 +141,20 @@ ul.nav li.talk a:hover {
 .stat .quote1 h3 p {
   font-size: 1.8rem;
   font-style: normal;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .hero .link h5 {
   font-family: 'Source Sans Pro', sans-serif;
-  padding-top: 20px;
+  padding-top: 30px;
   font-size: 1.6rem;
   text-align: center;
   letter-spacing: 0.05rem;
+  padding-bottom: 40px;
   color: white;
-  padding-bottom: 30px;
+  font-weight: 500;
 }
+
 
 
 /* Important */
@@ -162,7 +165,7 @@ ul.nav li.talk a:hover {
   padding-bottom: 30px;
   text-align: center;
   font-weight: bolder;
-  font-size: 3.6rem;
+  font-size: 3.8rem;
   font-weight: 900;
   letter-spacing: 0.05rem;
 }
@@ -171,7 +174,7 @@ ul.nav li.talk a:hover {
   font-family: 'Source Sans Pro', sans-serif;
   padding-bottom: 20px;
   color: #397367;
-  font-size: 3.2rem;
+  font-size: 3rem;
   text-align: center;
   font-weight: 800;
 }
@@ -235,7 +238,7 @@ ul.nav li.talk a:hover {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 2.6rem;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 25px;
   font-style: italic;
   color: #397367;
   letter-spacing: 0.05rem;
@@ -286,8 +289,8 @@ ul.nav li.talk a:hover {
   line-height: 140%;
   color: #35393C;
   font-weight: lighter;
-  padding-top: 40px;
-  padding-bottom: 20px;
+  padding-top: 60px;
+  padding-bottom: 50px;
 }
 
 .quote2 strong {
@@ -297,7 +300,7 @@ ul.nav li.talk a:hover {
 .quote2 h3 p {
   font-size: 1.8rem;
   font-style: normal;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 
