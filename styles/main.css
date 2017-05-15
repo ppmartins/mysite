@@ -347,6 +347,10 @@ ul.nav li.talk a:hover {
 }
 
 .middle .text .line7 {
+  padding-top: 5px;
+}
+
+.middle .text .line8 {
   padding-top: 65px;
   font-weight: 800;
   font-size: 3.2rem;
