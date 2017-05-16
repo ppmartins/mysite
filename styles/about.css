@@ -33,6 +33,7 @@
 .symbol .bullet2 .glyphicon {
   color: #42858c;
   padding-right: 7px;
+  padding-top: 15px;
 }
 
 .about-me a {
@@ -61,10 +62,11 @@
 
 .about-me .space {
   padding-bottom: 25px;
+  padding-top: 15px;
 }
 
 .about-me .enough {
-  padding-top: 45px;
+  padding-top: 55px;
   text-align: center;
   font-style: italic;
 }
