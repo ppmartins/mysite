@@ -1,0 +1,54 @@
+.javahero .col-md-12 {
+  background-color: rgba(53,57,60,0.9);
+}
+
+.javahero .headline h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5.4rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 0px 0px -10px 0px;
+  padding-top: 60px;
+  letter-spacing: 0.05rem;
+  color: white;
+  padding-bottom: 60px;
+}
+
+.javascript h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.2rem;
+  padding-top: 20px;
+  letter-spacing: 0.05rem;
+  text-align: center;
+}
+
+.javascript h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: #397367;
+  font-size: 3.6rem;
+  text-align: center;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  padding-top: 60px;
+}
+
+.javascript p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.8rem;
+  padding-top: 4px;
+  letter-spacing: 0.05rem;
+  text-align: center;
+}
+
+.col-md-6 {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.javascript h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.8rem;
+  padding-top: 25px;
+  letter-spacing: 0.05rem;
+  text-align: center;
+}
