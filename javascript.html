@@ -194,6 +194,142 @@
           </div>
         </div>
 
+        <div class="row exercise13">
+          <div class="col-md-6 col-md-offset-3">
+            <h1 class="exercises">Lesson #13</h1>
+            <h2 class="explanation">JavaScript statements are separated by <strong>semicolons</strong>.</h2>
+            <p>For example, x = 5; is a valid JavaScript statement.</p>
+            <p>JavaScript statements are composed of Values, Operators, Expressions, Keywords, and Comments.</p>
+            <p>The JavaScript syntax defines two types of values: Fixed values and variable valuas.</p>
+            <p>Fixed values are called <strong>literals</strong>. Variable values are called <strong>variables</strong>.</p>
+          </div>
+        </div>
+
+        <div class="row exercise14">
+          <div class="col-md-6 col-md-offset-3">
+            <h1 class="exercises">Lesson #14</h1>
+            <h2 class="explanation">In a programming language, <strong>variables</strong> are used to <strong>store</strong> data values.</h2>
+            <p>JavaScript uses the <strong>var</strong> keyword to <strong>declare</strong> variables.</p>
+            <p>An <strong>equal sign</strong> is used to <strong>assign values</strong> to variables.</p>
+            <p>In the example below, in the first line, we are defining a "x" as a variable. Then, "x" is assigned (given) the value of 6:</p>
+            <p>var x;</p>
+            <p>x = 6;</p>
+            <p>If, for example, we had the previous two lines in our code and we would have console.log(x); to see what "x" had inside, we would have got 6 as a result because it's the current value stored in the "x" variable.</p>
+            <p>As a side note, it is possible to assign more than one variable at the same time.</p>
+            <p>var x, y;</p>
+            <p>x = 5;</p>
+            <p>y = 6;</p>
+            <p>At this stage, we have two variables, x and y, and for each we assigned a specific value, 5 and 6 respectively.</p>
+          </div>
+        </div>
+
+        <div class="row exercise15">
+          <div class="col-md-6 col-md-offset-3">
+            <h1 class="exercises">Lesson #15</h1>
+            <h2 class="explanation">JavaScript uses <strong>arithmetic operators</strong> ( + - *  / ) to <strong>compute</strong> values</h2>
+            <p>Examples:</p>
+            <p>(2 * 2 + 2) / 3 evaluates to 2.</p>
+          </div>
+        </div>
+
+        <div class="row exercise16">
+          <div class="col-md-6 col-md-offset-3">
+            <h1 class="exercises">Lesson #16</h1>
+            <h2 class="explanation">Let's combine two things: the <strong>innerHTML</strong> property with an arithmetic operator.</h2>
+            <p>This example should be checked inside the code of this page, to better understand what is happening and where this 110 is comming from.</p>
+            <p id="empty2"></p>
+            <script>
+              var x, y;
+              x = 5 + 6;
+              y = x * 10;
+              document.getElementById("empty2").innerHTML = y;
+            </script>
+          </div>
+        </div>
+
+        <div class="row exercise17">
+          <div class="col-md-6 col-md-offset-3">
+            <h1 class="exercises">Lesson #17</h1>
+            <h2 class="explanation">However I am doing it several times in this page. JavaScript code should not be placed straight in a HTML file. It should be placed inside a <strong>.js</strong> file.</h2>
+          </div>
+        </div>
+
+        <div class="row exercise18">
+          <div class="col-md-6 col-md-offset-3">
+            <h1 class="exercises">Lesson #18</h1>
+            <h2 class="explanation">Not all JavaScript statements are <strong>"executed"</strong>.</h2>
+            <p>Code after double slashes <strong>//</strong>, for single line, or between <strong>/*</strong> and <strong>*/</strong>, for multiple lines, is treated as a <strong>comment</strong>.</p>
+            <p>Attention: this will only be valid inside a <strong>.js</strong> file. In an HTML file the comment syntax is a bit different.</p>
+          </div>
+        </div>
+
+        <div class="row exercise19">
+          <div class="col-md-6 col-md-offset-3">
+            <h1 class="exercises">Lesson #19</h1>
+            <h2 class="explanation">JavaScript <strong>identifiers</strong> are names.</h2>
+            <p>In JavaScript, identifiers are used to name variables (and keywords, and functions, and labels).</p>
+            <p>In JavaScript, the first character must be a letter, or an underscore (_), or a dollar sign ($).</p>
+            <p>Subsequent characters may be letters, digits, underscores, or dollar signs.</p>
+            <p>All JavaScript identifiers are case sensitive and Camel Case.</p>
+            <p>The variables <strong>lastName</strong> and <strong>lastname</strong>, are two different variables.</p>
+            <p>JavaScript does not interpret <strong>VAR</strong> or <strong>Var</strong> as the keyword var.</p>
+            <p>Hyphens are not allowed in JavaScript. It is reserved for subtractions.</p>
+            <p>JavaScript programmers tend to use <strong>camel case</strong> that starts with a lowercase letter:</p>
+            <p>firstName, lastName, masterCard, interCity.</p>
+          </div>
+        </div>
+
+        <div class="row exercise20">
+          <div class="col-md-6 col-md-offset-3">
+            <h1 class="exercises">Lesson #20</h1>
+            <h2 class="explanation">In HTML, <strong>JavaScript statements</strong> are "instructions" to be "executed" by the web browser.</h2>
+            <p>This statement tells the browser to write "Hello Dolly." inside an HTML element with <strong>id="demo"</strong>:</p>
+            <p>document.getElementById("demo").innerHTML = "Hello Dolly.";</p>
+          </div>
+        </div>
+
+        <div class="row exercise21">
+          <div class="col-md-6 col-md-offset-3">
+            <h1 class="exercises">Lesson #21</h1>
+            <h2 class="explanation">Most JavaScript programs <strong>contain</strong> many JavaScript statements.</h2>
+            <p>The statements are executed, one by one, in the same order as they are written. So, when writing programs, we should have attention to the order we build the program. For instance, if we want to have a variable z to evaluate to the sum of x + y, unless we have both those variables defined previously, we won't get a thing out of it.</p>
+            <p>JavaScript programs (and JavaScript statements) are often called JavaScript code.</p>
+          </div>
+        </div>
+
+        <div class="row exercise22">
+          <div class="col-md-6 col-md-offset-3">
+            <h1 class="exercises">Lesson #22</h1>
+            <h2 class="explanation"><strong>Declaring (Creating) JavaScript Variables</strong></h2>
+            <p>Creating a variable in JavaScript is called "declaring" a variable.</p>
+            <p>We declare a JavaScript variable with the var keyword:</p>
+            <p><i>var carName;</i></p>
+            <p>After the declaration, the variable has no value. (Technically it has the value of undefined)</p>
+            <p>To assign a value to the variable, use the equal sign:</p>
+            <p><i>carName = "Volvo";</i></p>
+            <p>You can also assign a value to the variable when you declare it:</p>
+            <p><i>var carName = "Volvo";</i></p>
+            <p><strong>Note:</strong> It's a good programming practice to declare all variables at the beginning of a script.</p>
+            <p>We can declare many variables in one statement.</p>
+            <p>Start the statement with var and separate the variables by comma:</p>
+            <p><i>var person = "John Doe", carName = "Volvo", price = 200;</i></p>
+            <p>A declaration can span multiple lines:</p>
+            <p><i>var person = "John Doe",</i></p>
+            <p><i>carName = "Volvo",</i></p>
+            <p><i>price = 200;</i></p>
+            <p>In computer programs, variables are often declared without a value. The value can be something that has to be calculated, or something that will be provided later, like user input.</p>
+            <p>A variable declared without a value will have the value <strong>undefined</strong>.</p>
+          </div>
+        </div>
+
+        <div class="row exercise23">
+          <div class="col-md-6 col-md-offset-3">
+            <h1 class="exercises">Lesson #23</h1>
+            <h2 class="explanation"></h2>
+            <p></p>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
