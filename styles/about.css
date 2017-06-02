@@ -25,6 +25,40 @@
   letter-spacing: 0.05rem;
 }
 
+.about-me .ppimage {
+  text-align: center;
+  padding-top: 40px;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .about-me .ppimage {
+    width: 500px;
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .about-me .ppimage {
+    width: 400px;
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .about-me .ppimage {
+    width: 300px;
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .about-me .ppimage {
+    width: 100px;
+    text-align: center;
+  }
+}
+
+
 .symbol .bullet .glyphicon {
   color: #42858c;
   padding-right: 7px;
